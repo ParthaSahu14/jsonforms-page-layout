@@ -1,0 +1,6 @@
+[
+    {"name": "West Bengal", "id": "1", "countryId": "1"},
+    {"name": "Odisha", "id": "2", "countryId": "1"},
+    {"name": "London", "id": "3", "countryId": "2"},
+    {"name": "Manchester", "id": "4", "countryId": "2"}
+]
