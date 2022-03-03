@@ -1,0 +1,73 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "title": "Long Description",
+      "type": "string"
+    },
+    "done": {
+      "type": "boolean"
+    },
+    "due_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "rating": {
+      "type": "integer",
+      "maximum": 5
+    },
+    "recurrence": {
+      "type": "string",
+      "enum": ["Never", "Daily", "Weekly", "Monthly"]
+    },
+    "recurrence_interval": {
+      "type": "integer"
+    },
+    "orders": {
+      "type": "object",
+      "title": "Orders",
+      "items": {
+        "type": "object",
+        "properties": {
+          "OrderID": {
+            "type": "string"
+          },
+          "CustomerID": {
+            "type": "string"
+          },
+          "EmployeeID": {
+            "type": "string"
+          },
+          "Freight": {
+            "type": "string"
+          },
+          "ShipCountry": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "countrydropdown": {
+      "type": "object",
+      "title": "Country",
+      "datasource": "inhouse",
+      "name": "country",
+      "dependsOn": null
+    },
+    "statedropdown": {
+      "type": "object",
+      "title": "State",
+      "datasource": "inhouse",
+      "name": "state",
+      "dependsOn": {
+        "field": "countrydropdown",
+        "value": "countryId"
+      }
+    }
+  },
+  "required": ["name", "due_date"]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "VerticalLayout",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/emailtextbox"
+        }
+      ]
+    },
+    {
+      "type": "HorizontalLayout",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/countrydropdown"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/statedropdown"
+        }
+      ]
+    },
+    {
+      "type": "VerticalLayout",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/policyfileupload"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/include_gift"
+        }
+      ]
+    }
+  ]
+}

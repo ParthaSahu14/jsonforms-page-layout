@@ -1,0 +1,204 @@
+{
+    "layoutComponents": {
+        "lg": [
+            {
+                "key": "Registration",
+                "title": "Registration",
+                "cssClass": "component-container",
+                "comp": "RegistrationComponent"
+            },
+            {
+                "key": "movie",
+                "title": "Movies",
+                "cssClass": ""
+            },
+            {
+                "key": "countryWiseMovie",
+                "title": "Country Wise Movie",
+                "cssClass": ""
+            }
+        ],
+        "md": [
+            {
+                "key": "Registration",
+                "title": "Registration",
+                "cssClass": ""
+            },
+            {
+                "key": "movie",
+                "title": "Movies",
+                "cssClass": ""
+            },
+            {
+                "key": "countryWiseMovie",
+                "title": "Country Wise Movie",
+                "cssClass": ""
+            },
+            {
+                "key": "movieDetails",
+                "title": "Movie Details",
+                "cssClass": ""
+            }
+        ],
+        "sm": [
+            {
+                "key": "movie",
+                "title": "Movies",
+                "cssClass": ""
+            },
+            {
+                "key": "countryWiseMovie",
+                "title": "Country Wise Movie",
+                "cssClass": ""
+            },
+            {
+                "key": "Registration",
+                "title": "Registration",
+                "cssClass": ""
+            },
+            {
+                "key": "movieDetails",
+                "title": "Movie Details",
+                "cssClass": ""
+            }
+        ],
+        "xs": [
+            {
+                "key": "movie",
+                "title": "Movies",
+                "cssClass": ""
+            },
+            {
+                "key": "countryWiseMovie",
+                "title": "Country Wise Movie",
+                "cssClass": ""
+            },
+            {
+                "key": "movieDetails",
+                "title": "Movie Details",
+                "cssClass": ""
+            },
+            {
+                "key": "Registration",
+                "title": "Registration",
+                "cssClass": "",
+                "comp": "RegistrationComponent"
+            }
+        ]
+    },
+    "layoutBreakpoints": {
+        "lg": [
+            {
+                "w": 3,
+                
+                "x": 0,
+                "y": 0,
+                "i": "Registration"
+            },
+            {
+                "w": 6,
+                "h": 2,
+                "x": 3,
+                "y": 0,
+                "i": "movie"
+            },
+            {
+                "w": 3,
+                "h": 2,
+                "x": 9,
+                "y": 0,
+                "i": "countryWiseMovie"
+            }
+        ],
+        "md": [
+            {
+                "w": 3,
+                "h": 2,
+                "x": 0,
+                "y": 0,
+                "i": "Registration"
+            },
+            {
+                "w": 7,
+                "h": 2,
+                "x": 8,
+                "y": 0,
+                "i": "movie"
+            },
+            {
+                "w": 7,
+                "h": 2,
+                "x": 0,
+                "y": 2,
+                "i": "countryWiseMovie"
+            },
+            {
+                "w": 3,
+                "h": 2,
+                "x": 8,
+                "y": 0,
+                "i": "movieDetails"
+            }
+        ],
+        "sm": [
+            {
+                "w": 6,
+                "h": 2,
+                "x": 0,
+                "y": 0,
+                "i": "movie"
+            },
+            {
+                "w": 6,
+                "h": 2,
+                "x": 0,
+                "y": 0,
+                "i": "countryWiseMovie"
+            },
+            {
+                "w": 3,
+                "h": 2,
+                "x": 0,
+                "y": 2,
+                "i": "Registration"
+            },
+            {
+                "w": 3,
+                "h": 2,
+                "x": 6,
+                "y": 0,
+                "i": "movieDetails"
+            }
+        ],
+        "xs": [
+            {
+                "w": 4,
+                "h": 2,
+                "x": 0,
+                "y": 0,
+                "i": "movie"
+            },
+            {
+                "w": 4,
+                "h": 2,
+                "x": 0,
+                "y": 0,
+                "i": "countryWiseMovie"
+            },
+            {
+                "w": 4,
+                "h": 2,
+                "x": 0,
+                "y": 0,
+                "i": "Registration"
+            },
+            {
+                "w": 4,
+                "h": 2,
+                "x": 0,
+                "y": 0,
+                "i": "movieDetails"
+            }
+        ]
+    }
+}

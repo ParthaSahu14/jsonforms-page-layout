@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "properties": {
+    "emailtextbox": {
+      "type": "object",
+      "title": "Email",
+      "field":"emailtextbox",
+      "validation": [
+        {"type": "require", "value": true, "message": "Email is required"},
+        {"type": "pattern", "value": "^[a-z0-9]+(\\.[_a-z0-9]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,15})$", "message": "Invalid email fromat"},
+        {"type": "focusOut", "value": "http://localhost:3001/validateemail", "message": "Email already exist"}
+      ]
+    },
+    "countrydropdown": {
+      "type": "object",
+      "title": "Country",
+      "field":"countrydropdown",
+      "datasource": "inhouse",
+      "name": "country",
+      "dependsOn": null
+    },
+    "statedropdown": {
+      "type": "object",
+      "title": "State",
+      "field":"statedropdown",
+      "datasource": "inhouse",
+      "name": "state",
+      "dependsOn": {
+        "field": "countrydropdown",
+        "value": "countryId"
+      }
+    },
+    "policyfileupload": {
+      "type": "object",
+      "title": "Document Upload"
+    },
+    "include_gift": {
+      "type": "boolean",
+      "price": 40
+    }
+  }
+}
